@@ -1,0 +1,205 @@
+main {
+    background-image: url("https://preview.colorlib.com/theme/roberto/img/bg-img/5.jpg");
+    height: 80vh;
+}
+.main {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.78;
+    background-color: black;
+    text-align: center;
+    h1 {
+        font-family: "Lucida Handwriting", cursive;
+        color: white;
+    }
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+header {
+    position: relative;
+    height: 100vh; /* Full height of the viewport */
+    background-image: url('https://example.com/your-background-image.jpg'); /* Change this to your desired background image */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center; /* Center text in hero section */
+    animation: fadeIn 1s ease-in-out; /* Add fade-in animation */
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav .logo {
+    font-size: 30px; /* Increased logo size */
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 30px; /* Increased spacing between nav items */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px; /* Added padding for hero content */
+}
+
+.hero h1 {
+    font-size: 60px; /* Increased title font size */
+    animation: slideIn 1s ease-in-out; /* Slide-in animation for title */
+}
+
+.hero p {
+    font-size: 28px; /* Increased paragraph font size */
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: purple;
+    color: white;
+    padding: 15px 30px; /* Increased button padding */
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-size: 20px; /* Increased button font size */
+}
+
+.btn:hover {
+    background-color: navy;
+    border: 20px;
+    border: rgb(255, 255, 255);
+}
+
+section {
+    padding: 80px 20px; /* Increased padding for sections */
+    text-align: center;
+    animation: fadeIn 1s ease-in-out; /* Fade-in animation for sections */
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.service {
+    margin: 40px 0; /* Increased spacing between services */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    header {
+        height: 70vh; /* Reduce height on smaller screens */
+    }
+    .hero h1 {
+        font-size: 40px; /* Reduce title font size */
+    }
+    .hero p {
+        font-size: 20px; /* Reduce paragraph font size */
+    }
+    .btn {
+        padding: 10px 20px; /* Reduce button padding */
+        font-size: 18px; /* Reduce button font size */
+    }
+    nav ul li {
+        margin-left: 15px; /* Reduce spacing between nav items */
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        height: 60vh; /* Further reduce height on extra small screens */
+    }
+    .hero h1 {
+        font-size: 30px; /* Further reduce title font size */
+    }
+    .hero p {
+        font-size: 18px; /* Further reduce paragraph font size */
+    }
+    .btn {
+        padding: 8px 16px; /* Further reduce button padding */
+        font-size: 16px; /* Further reduce button font size */
+    }
+}
+h1 {
+    font-family: "Lucida Handwriting", cursive;
+}
+p {
+    font-family: "Lucida Handwriting", cursive;
+}
+.btn {
+    font-family: "Lucida Handwriting", cursive;
+}
+.logo {
+    font-family: "Lucida Handwriting", cursive;
+}
+.nav {font-family: Courier, monospace;}
+.nav :hover {
+    background-color: navy
+    ;
+}
+.about {
+    color: white;
+    font-family: "Lucida Handwriting", cursive;
+}
+.about-paragraph {
+    color: white;
+    font-family: "Lucida Handwriting", cursive;
+
+}
